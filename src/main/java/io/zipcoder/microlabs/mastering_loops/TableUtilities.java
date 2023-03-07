@@ -20,7 +20,7 @@ public class TableUtilities {
 
             }
             multitab.append("\n");
-            System.out.println();
+            //System.out.println();
 
         }
         return multitab.toString();
