@@ -5,7 +5,12 @@ import org.apache.maven.shared.utils.StringUtils;
 public class TriangleUtilities {
 
     public static String getTriangle(int numberOfRows) {
-        return null;
+        String finalTriangle = "";
+        for(int i = 1; i < numberOfRows; i++) {
+            String miTriangle = new String(StringUtils.repeat("*", i));
+            finalTriangle += miTriangle + "\n";
+        }
+        return finalTriangle;
     }
 
     public static String getRow(int numberOfStars) {
