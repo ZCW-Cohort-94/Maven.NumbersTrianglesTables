@@ -21,10 +21,12 @@ public class TriangleUtilities {
     }
 
     public static String getSmallTriangle() {
-        return null;
+        return TriangleUtilities.getTriangle(5);
+
     }
 
     public static String getLargeTriangle() {
-        return null;
+
+        return TriangleUtilities.getTriangle(10);
     }
 }
