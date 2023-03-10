@@ -1,5 +1,7 @@
 package io.zipcoder.microlabs.mastering_loops;
 
+import org.apache.maven.shared.utils.StringUtils;
+
 public class TriangleUtilities {
 
     public static String getTriangle(int numberOfRows) {
@@ -7,7 +9,10 @@ public class TriangleUtilities {
     }
 
     public static String getRow(int numberOfStars) {
-        return null;
+
+       String answer = new String(StringUtils.repeat("*",numberOfStars));
+
+       return answer;
     }
 
     public static String getSmallTriangle() {
